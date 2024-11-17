@@ -6,7 +6,7 @@ import { verifyToken } from "../middlewares/verifyToken.js";
 
 
 
-router.get("/check-auth",verifyToken,checkAuth)
+router.get("/check-auth",verifyToken,checkAuth);
 
 router.post("/signup",signup);
 
